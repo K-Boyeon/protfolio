@@ -134,17 +134,8 @@ $(function(){
     // PROFILE CLICK
     var promotionEl = document.querySelector(".box2 > .swiper-container");
     var promotionToggleBtn = document.querySelector(".togglebtn");
-    let isHidePromotion = false;
-    // $(".togglebtn").hover(function(){
-    //     isHidePromotion = !isHidePromotion
-    //     if(isHidePromotion){
-    //         //숨김 처리
-    //         promotionEl.classList.remove("hide");
-    //     }else{
-    //         //보임 처리
-    //         promotionEl.classList.add("hide");
-    //     }
-    // });
+    var isHidePromotion = false;
+
     promotionToggleBtn.addEventListener("click",function(){
         isHidePromotion = !isHidePromotion
         if(isHidePromotion){
