@@ -49,7 +49,7 @@ a{
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background: #fff;
+    background: rgba(255, 255, 255, 0);
     border: 2px solid #2f4f4f;
     width: 60%;
     height: 7%;
@@ -91,17 +91,26 @@ header .fixed-menu > .menu li{
 }
 header .fixed-menu > .menu li a{
     padding: 0 10px;
+    color: #daa52e;
+    font-weight: 700;
+    text-align: center;
+}
+header .fixed-menu > .menu li:hover a{
+    border-bottom: 2px solid #2f4f4f;
+    font-weight: 700;
+    color: #2f4f4f;
 }
 header .fixed-menu > .menu li a.on{
     border-bottom: 2px solid #2f4f4f;
     font-weight: 700;
     color: #2f4f4f;
 }
-header .fixed-menu > .menu li a{
-    color: #daa52e;
+header .fixed-menu > .menu li a.on-2{
+    border-bottom: 2px solid #faebd7;
     font-weight: 700;
-    text-align: center;
+    color: #faebd7;
 }
+
 .bg-top{
     position: absolute;
     width: 100%;
@@ -551,8 +560,8 @@ header .fixed-menu > .menu li a{
     position: absolute;
     top: 0;
     left: 0;
-    width: 300px;
-    height: 300px;
+    width: 285px;
+    height: 285px;
     background: #faebd7;
     overflow: hidden;
     border-radius: 43%;
@@ -562,11 +571,11 @@ header .fixed-menu > .menu li a{
 }
 .wave.four img{
     position: absolute;
-    top: 58%;
+    top: 56%;
     left: 54%;
     transform: translate(-50%, -50%) rotateZ(-35deg);
-    width: 255px;
-    height: 335px;
+    width: 245px;
+    height: 325px;
 }
 
 .profile{
@@ -782,12 +791,13 @@ progress::-moz-progress-bar {
 }
 .togglebtn{
     position: absolute;
-    top: 160%;
-    left: 29.5%;
-    width: 12%;
+    top: 66%;
+    left: 49.5%;
+    width: 27%;
     height: 3%;
     background: #daa52e;
     border-radius: 20px;
+    cursor: pointer;
     z-index: 100;
 }
 .togglebtn .clickbtn{
@@ -830,7 +840,7 @@ progress::-moz-progress-bar {
     
 }
 .profile .box2 > .swiper-container.hide{
-    height: 0%;
+    height: 0;
 } 
 
 /* WORK */
@@ -852,27 +862,39 @@ progress::-moz-progress-bar {
 .work .promotion .swiper-slide{
     position: relative;
     width: 100%;
+    height: 100%;
 }
 .work .promotion .swiper-slide__img{
     position: absolute;
-    top: 0;
-    left: 5%;
+    top: -20%;
+    left: -1%;
 }
-.work .promotion .swiper-slide img{
-    width: 45%;
-    height: 50%;
+/* .work .promotion .swiper-slide img{
+    height: 100%;
+} */
+.work .promotion .swiper-slide img[alt="starbucks_site"]{
+    width: 60%;
 }
-.work .promotion .swiper-slide img[alt="harrypotter"]{
-    width: 41%;
+.work .promotion .swiper-slide__img img[alt="harrypotter"]{
+    width: 50%;
+    height: 70%;
     margin-left: 30px;
+    margin-top: 4%;
 }
 .work .promotion .swiper-slide img[alt="Mockup_logo2"]{
-    width: 45%;
+    width: 60%;
 }
 .work .promotion .swiper-slide .swiper-slide__info{
     position: absolute;
     top: 0;
-    right: 9.5%;
+    right: 7.5%;
+    width: 37.5%;
+    height: 90%;
+}
+.work .promotion .swiper-slide .harrypotter{
+    position: absolute;
+    top: 0;
+    right: 12%;
     width: 37.5%;
     height: 90%;
 }
@@ -1124,7 +1146,7 @@ progress::-moz-progress-bar {
 .contact .circle.one{
     position: absolute;
     top: -30%;
-    left: 5%;
+    left: 20%;
     width: 500px;
     height: 500px;
     opacity: 0.5;
@@ -1138,7 +1160,7 @@ progress::-moz-progress-bar {
     animation: drift 5000ms infinite linear;
     z-index: -1;
 }
-.contact .circle.three{
+.contact .circle.two{
     position: absolute;
     bottom: 10%;
     right: 5%;
@@ -1190,18 +1212,19 @@ progress::-moz-progress-bar {
     text-align: center;
 }
 .contact footer .fab{
-    margin: 20px 10px 20px;
+    margin: 30px 10px 20px;
     color: #fff;
-    font-size: 30px;
+    font-size: 26px;
     cursor: pointer;
 }
 .contact footer p{
     margin-bottom: 10px;
+    font-size: 14px;
     color: #fff;
 }
 .contact footer p:last-child{
     letter-spacing: 2px;
-    font-size: 10px;
+    font-size: 7px;
 }
 
 

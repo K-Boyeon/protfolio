@@ -101,6 +101,25 @@ $(function(){
         $("html, body").animate({scrollTop:$("#section" + (n + 1)).offset().top});
     });
 
+    // $(window).scroll(function(){
+    //     if($("html, body").is(":animated")){
+    //         return false;
+    //     }
+
+    //     t = $(this).scrollTop();
+
+    //     if(t <= $("#section2").offset().top){
+    //         $(".fixed-menu > .menu li a").removeClass("on");
+    //         $(".fixed-menu > .menu li a").eq(1).addClass("on");
+    //     }else if(t <= $("#section3").offset().top){
+    //         $(".fixed-menu > .menu li a").eq(1).removeClass("on");
+    //         $(".fixed-menu > .menu li a").eq(2).addClass("on-2");
+    //     }else if(t <= $("#section4").offset().top){
+    //         $(".fixed-menu > .menu li a").eq(2).removeClass("on-2");
+    //         $(".fixed-menu > .menu li a").eq(3).addClass("on");
+    //     }
+    // });
+
     // MOUSEWHEEL
     var n = 0;
     $("html, body").mousewheel(function(e, delta){
