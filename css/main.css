@@ -474,11 +474,11 @@ header .fixed-menu > .menu li a.on-2{
 }
 
 .wavebox .wave {
-    opacity: .4;
+    opacity: .2;
     position: absolute;
     top: 3%;
     left: 50%;
-    background: #2f4f4f;
+    background: #2d2d2b;
     width: 600px;
     height: 600px;
     -webkit-transform-origin: 50% 48%;
@@ -489,12 +489,14 @@ header .fixed-menu > .menu li a.on-2{
 }
 
 .wavebox .wave.three {
+    opacity: .2;
+    /* background: #2f4f4f; */
     -webkit-animation: drift 7000ms infinite linear;
     animation: drift 7000ms infinite linear;
 }
 
 .wavebox .wave.two {
-    opacity: .3;
+    opacity: .2;
     background: #daa52e;
     -webkit-animation: drift 9000ms infinite linear;
     animation: drift 9000ms infinite linear;
@@ -507,6 +509,49 @@ header .fixed-menu > .menu li a.on-2{
         to { transform: rotate(0deg); }
         from { transform: rotate(360deg); }
     }
+.wavebox2 {
+    position: absolute;
+    top: 255%;
+    right: 50%;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 30px rgba(black, .2);
+    background: lighten(#2f4f4f, 10%);
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 0;
+}
+
+.wavebox2 .wave {
+    opacity: .4;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    background: #2f4f4f;
+    width: 500px;
+    height: 500px;
+    -webkit-transform-origin: 50% 48%;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+    -webkit-animation: drift 5000ms infinite linear;
+    animation: drift 5000ms infinite linear;
+}
+
+.wavebox2 .wave.three {
+    opacity: .3;
+    background: #daa52e;
+    -webkit-animation: drift 7000ms infinite linear;
+    animation: drift 7000ms infinite linear;
+}
+
+.wavebox2 .wave.two {
+    opacity: .3;
+    background: #daa52e;
+    -webkit-animation: drift 9000ms infinite linear;
+    animation: drift 9000ms infinite linear;
+}
 .wavebox-2 {
     position: absolute;
     top: -50%;
@@ -621,8 +666,8 @@ header .fixed-menu > .menu li a.on-2{
         display: block;
         width: 0;
         height: 100%;
-        border: 1px solid #daa52e;
-        background: #daa52e;
+        border: 1px solid #2f4f4f;
+        background: #2f4f4f;
         position: absolute;
         top: 0;
         left: 30px;
@@ -647,8 +692,8 @@ header .fixed-menu > .menu li a.on-2{
         width: 7px;
         height: 7px;
         border-radius: 50%;
-        border: 2px solid #daa52e;
-        background: #daa52e;
+        border: 2px solid #2f4f4f;
+        background: #2f4f4f;
         position: absolute;
         left: -7.2px;
     }
@@ -659,8 +704,8 @@ header .fixed-menu > .menu li a.on-2{
         width: 7px;
         height: 7px;
         border-radius: 50%;
-        border: 1px solid #daa52e;
-        background: #daa52e;
+        border: 1px solid #2f4f4f;
+        background: #2f4f4f;
         position: absolute;
         top: 0;
         left: 7px;
@@ -670,8 +715,8 @@ header .fixed-menu > .menu li a.on-2{
         width: 5px;
         height: 5px;
         border-radius: 50%;
-        border: 1px solid #daa52e;
-        background: #daa52e;
+        border: 1px solid #2f4f4f;
+        background: #2f4f4f;
         position: absolute;
         top: 5px;
         left: 20px;
@@ -680,7 +725,7 @@ header .fixed-menu > .menu li a.on-2{
     position: absolute;
     left: -10%;
     width: 12%;
-    color: #daa52e;
+    color: #2f4f4f;
     font-weight: bold;
 }
 .profile .box .first-list .title p{
@@ -712,7 +757,7 @@ header .fixed-menu > .menu li a.on-2{
 .profile .box .first-list .skill3 .info progress{
     width: 100%;
     height: 10px;
-    background: #daa52e;
+    background: #2f4f4f;
     border-radius: 25px;
     margin-right: 10px;
 }
@@ -722,12 +767,12 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-    background-color: #daa52e;
+    background-color: #2f4f4f;
     border-radius: 25px;
 }
 
 progress::-moz-progress-bar {
-    background-color: #daa52e;
+    background-color: #2f4f4f;
     border-radius: 25px;
 }
 .profile .box2{
