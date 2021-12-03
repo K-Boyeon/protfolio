@@ -514,7 +514,7 @@ header .fixed-menu > .menu li a.on-2{
     top: 255%;
     right: 50%;
     width: 1200px;
-    height: 1200px;
+    height: 950px;
     border-radius: 5px;
     box-shadow: 0 2px 30px rgba(black, .2);
     background: lighten(#2f4f4f, 10%);
