@@ -736,10 +736,10 @@ header .fixed-menu > .menu li a.on-2{
     position: relative;
     color: #2d2d2b;
     border-radius: 10px;
-    line-height: 20px;
+    line-height: 1.5;
     width: 60%;
     padding-left: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     overflow: hidden;
     font-family: 'Sunflower', sans-serif;
     font-weight: 300;
@@ -806,6 +806,7 @@ progress::-moz-progress-bar {
 .profile .box2 .profile-info p{
     text-align: left;
     line-height: 1;
+    letter-spacing: 1px;
     color: #2d2d2b;
 }
 .profile .box2 .profile-info .profile-info--text p:first-child{
@@ -1116,11 +1117,20 @@ progress::-moz-progress-bar {
 }
 .contact .card .card-contact{
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
     right: 30px;
+    font-family: 'Sunflower', sans-serif;
 }
 .contact .card .card-contact p{
     color: #daa52e;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+}
+.contact .card .card-contact p span{
+    letter-spacing: 1.7px;
+}
+.contact .card .card-contact p:last-child{
+    letter-spacing: 1px;
 }
 .contact .card .back{
     -webkit-transform: rotateY(180deg);
@@ -1232,7 +1242,7 @@ progress::-moz-progress-bar {
     width: 100%;
 }
 .contact .contact--text .form-group textarea[placeholder="MESSAGE"]{
-    font-family: sans-serif;
+    font-family: 'Sunflower', sans-serif;
 }
 .contact .contact--text .btn--send{
     position: absolute;
@@ -1265,6 +1275,7 @@ progress::-moz-progress-bar {
 .contact footer p{
     margin-bottom: 10px;
     font-size: 14px;
+    letter-spacing: 2px;
     color: #fff;
 }
 .contact footer p:last-child{
