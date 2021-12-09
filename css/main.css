@@ -723,7 +723,7 @@ header .fixed-menu > .menu li a.on-2{
     }
 .profile .box .first-list .title{
     position: absolute;
-    left: -10%;
+    left: -12%;
     width: 12%;
     color: #2f4f4f;
     font-weight: bold;
@@ -969,6 +969,19 @@ progress::-moz-progress-bar {
 }
 .work .promotion .swiper-slide .swiper-slide__info .text-group p:nth-of-type(3){
     top: 40%;
+}
+.work .promotion .swiper-slide .swiper-slide__info .text-group .tools{
+    position: absolute;
+    top: 30.7%;
+    left: 10%;
+}
+.work .promotion .swiper-slide .swiper-slide__info .text-group .tools .fab{
+    font-size: 24px;
+    color: #2d2d2b;
+}
+.work .promotion .swiper-slide .swiper-slide__info .text-group .tools img{
+    width: 24px;
+    height: 24px;
 }
 .work .promotion .swiper-slide .swiper-slide__info .note{
     position: absolute;
