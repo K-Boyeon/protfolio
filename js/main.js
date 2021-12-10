@@ -23,11 +23,9 @@ $(function(){
 
     const tl = new TimelineMax();
     tl.fromTo(inner, 1.5, {
-        // from
         height: "0%",
         opacity: 0
     },{
-        // to
         height: "50%", 
         opacity: 1,
         ease: Power2.easeInOut

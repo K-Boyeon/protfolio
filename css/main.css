@@ -90,7 +90,7 @@ header .fixed-menu > .menu li{
     padding-right: 50px;
 }
 header .fixed-menu > .menu li a{
-    padding: 0 10px;
+    /* padding: 0 10px; */
     color: #daa52e;
     font-weight: 700;
     text-align: center;
@@ -290,6 +290,7 @@ header .fixed-menu > .menu li a.on-2{
 .intro .inner .text-2 p > span{
     margin-left: 50px;
 }
+    
 /* .intro .inner .text-2 .my{
     font-weight: 700;
     color: #5f5f5b;
@@ -723,7 +724,7 @@ header .fixed-menu > .menu li a.on-2{
     }
 .profile .box .first-list .title{
     position: absolute;
-    left: -12%;
+    left: -11%;
     width: 12%;
     color: #2f4f4f;
     font-weight: bold;
@@ -738,7 +739,7 @@ header .fixed-menu > .menu li a.on-2{
     border-radius: 10px;
     line-height: 1.5;
     width: 60%;
-    padding-left: 35px;
+    padding-left: 20px;
     margin-bottom: 30px;
     overflow: hidden;
     font-family: 'Sunflower', sans-serif;
