@@ -1,449 +1,465 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>김보연 portfolio</title>
-    <!-- 오픈그레프 -->
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Portfolio" />
-    <meta property="og:title" content="Portfolio" />
-    <meta property="og:description" content="안녕하세요. 김보연 포트폴리오입니다." />
-    <meta property="og:image" content="./img/favicon_2.png" />
-    <meta property="og:url" content="http://eyhc12128.dothome.co.kr/" />
-    <!-- 트위터카드 -->
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Portfolio" />
-    <meta property="og:title" content="Portfolio" />
-    <meta property="og:description" content="안녕하세요. 김보연 포트폴리오입니다." />
-    <meta property="og:image" content="./img/favicon_2.png" />
-    <meta property="og:url" content="http://eyhc12128.dothome.co.kr/" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김보연 portfolio</title>
+  <!-- 오픈그레프 -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Portfolio" />
+  <meta property="og:title" content="Portfolio" />
+  <meta property="og:description" content="안녕하세요. 김보연 포트폴리오입니다." />
+  <meta property="og:image" content="./img/favicon_2.png" />
+  <meta property="og:url" content="http://eyhc12128.dothome.co.kr/" />
+  <!-- 트위터카드 -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Portfolio" />
+  <meta property="og:title" content="Portfolio" />
+  <meta property="og:description" content="안녕하세요. 김보연 포트폴리오입니다." />
+  <meta property="og:image" content="./img/favicon_2.png" />
+  <meta property="og:url" content="http://eyhc12128.dothome.co.kr/" />
 
-    <link rel="shortcut icon" href="./img/favicon_2.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="shortcut icon" href="./img/favicon_2.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
 
-    <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap" rel="stylesheet">
-    
-    <!-- ICON -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    
-    <link rel="stylesheet" href="./CSS/main.css" />
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap" rel="stylesheet">
 
-    <!-- GSAP & TIMELINEMAX-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-    
-    <!-- SWIPER -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
-    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
-    
-    <!-- Scroll Magic -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- ICON -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <!-- MOUSEWHEEL -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" integrity="sha512-rCjfoab9CVKOH/w/T6GbBxnAH5Azhy4+q1EXW5XEURefHbIkRbQ++ZR+GBClo3/d3q583X/gO4FKmOFuhkKrdA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="./CSS/main.css" />
 
-    <script defer src="./js/main.js"></script>
+  <!-- GSAP & TIMELINEMAX-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+
+  <!-- Scroll Magic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+    integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <!-- MOUSEWHEEL -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"
+    integrity="sha512-rCjfoab9CVKOH/w/T6GbBxnAH5Azhy4+q1EXW5XEURefHbIkRbQ++ZR+GBClo3/d3q583X/gO4FKmOFuhkKrdA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script defer src="./js/main.js"></script>
 </head>
+
 <body>
-    <!-- HEADER -->
-    <header>
+  <!-- HEADER -->
+  <header>
 
-        <div class="fixed-menu">
+    <div class="fixed-menu">
 
-            <ul class="menu">
-                <li>
-                    <a href="#section1">Intro</a>
-                </li>
-                <li>
-                    <a href="#section2">About me</a>
-                </li>
-                <li>
-                    <a href="#section3">Work</a>
-                </li>
-                <li>
-                    <a href="#section4">Contact</a>
-                </li>
-            </ul>
-        </div>
-
-    </header>
-
-
-    <!-- INTRO -->
-    <section class="intro scroll-spy" id="section1">
-
-        <h1>Hello !</h1>
-
-        <div class="inner">
-            <div class="text">
-                <h1>Welcome to <strong class="my">My</strong>
-                    <strong class="portfolio">Portfolio</strong>
-                </h1>
-                <div class="text--circle">
-                    <div class="circle circle1"></div>
-                    <div class="circle circle2"></div>
-                    <div class="circle circle3"></div>
-                    <div class="circle circle4"></div>
-                    <div class="circle circle5"></div>
-                </div>
-                
-            </div>
-            <div class="text-2">
-                <p class="hello">Hello <span>I'm</span></p>
-            </div>
-
-            <div class="text-2 swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide font">
-                        <p>Kim BoYeon</p>
-                    </div>
-                    <div class="swiper-slide font">
-                        <p>Web Desinger</p>
-                    </div>
-                    <div class="swiper-slide font">
-                        <p>Web Publisher</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="main-menu fade-in">
-                <ul class="menu">
-                    <li>
-                        <a href="#section1" class="liList">Intro</a>
-                    </li>
-                    <li>
-                        <a href="#section2" class="liList">About me</a>
-                    </li>
-                    <li>
-                        <a href="#section3" class="liList">Work</a>
-                    </li>
-                    <li>
-                        <a href="#section4" class="liList">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="mouse-scroll">
-            <div class="mouse">
-                <div class="mouse-wheel"></div>
-            </div>
-        </div>
-
-        <div class="bg-top"></div>
-        <div class="bg-bottom"></div>
-    </section>
-
-
-    <!-- PROFILE -->
-
-    <section class="profile scroll-spy" id="section2">
-
-        <div class="big-box">
-            <div class="box">
-                <ul class="first-list">
-
-                    <div class="title back-to-position to-right delay-0">
-                        <p>EDUCATION</p>
-                    </div>
-                    
-                    <li class="skill1">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <div class="info back-to-position to-left delay-0">
-                            <p>2015.02 매향여자정보고등학교 (경영정보학과) 졸업<br></p>
-                            <p>2015-2020 회계 및 사무보조 경력<br></p>
-                            <p>2021.01 ~ 2021.11 메가스터디컴퓨터아카데미 수원캠퍼스 <br>(웹디자인 & 웹퍼블리셔)<br></p>
-                        </div>
-                    </li>
-
-                    <div class="title back-to-position to-right delay-1">
-                        <p>LICENSE</p>
-                    </div>
-
-                    <li class="skill2">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <div class="info back-to-position to-left delay-1">
-                            <p>21.03 GTQ그래픽기술자격 1급 취득<br></p>
-                        </div>
-                    </li>
-
-                    <div class="title back-to-position to-right delay-2">
-                        <p>SKILLS</p>
-                    </div>
-
-                    <li class="skill3">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <div class="info back-to-position to-left delay-2">
-                            <span>HTML</span>
-                            <div class="progress--one">
-                                <progress value="80" max="100"></progress>
-                                <span>80%</span>
-                            </div>
-                            <span>CSS</span>
-                            <div class="progress--one">
-                                <progress value="75" max="100"></progress>
-                                <span>75%</span>
-                            </div>
-                            <span>javascript/jQuery</span>
-                            <div class="progress--one">
-                                <progress value="60" max="100"></progress>
-                                <span>60%</span>
-                            </div>
-                            <span>photoshop</span>
-                            <div class="progress--one">
-                                <progress value="75" max="100"></progress>
-                                <span>75%</span>
-                            </div>
-                            <span>illustrator</span>
-                            <div class="progress--one">
-                                <progress value="65" max="100"></progress>
-                                <span>65%</span>
-                            </div>
-                            <span>excel</span>
-                            <div class="progress--one">
-                                <progress value="70" max="100"></progress>
-                                <span>70%</span>
-                            </div>
-                            <span>Word</span>
-                            <div class="progress--one">
-                                <progress value="60" max="100"></progress>
-                                <span>65%</span>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="box2">
-                
-                <div class='wavebox-2'>
-                    <div class='wave two'></div>
-                </div>
-
-                <div class='wavebox-3'>
-                    <div class='wave four'>
-                        <img src="./img/DSC_6579 복사2.png" alt="">
-                    </div>
-                </div>
-
-                <div class="profile-info back-to-position to-right delay-2">
-                    <div class="profile-name profile-info--text">
-                        <p>김보연 / KIM BOYEON</p>
-                        <p>Web desinger & Publisher</p>
-                    </div>
-                    <div class="profile-age profile-info--text">
-                        <p>AGE</p>
-                        <p>만 25 ( 96.12.12 )</p>
-                    </div>
-                    <div class="profile-phone profile-info--text">
-                        <p>PHONE NUMBER</p>
-                        <p>010-9418-6873</p>
-                    </div>
-                    <div class="profile-email profile-info--text">
-                        <p>E-MAIL</p>
-                        <p>eyhc1212@naver.com</p>
-                    </div>
-                </div>
-
-                <div class="togglebtn">
-                    <div class="clickbtn">
-                        <h1>Who am I</h1>
-                    </div>
-                    <div class="material-icons">
-                        <img src="./img/click-icon-vector-25322813-2.png" alt="">
-                    </div>
-                </div>
-
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="note">
-                                <p>저는 꾸준히 노력하는 <br>신입 웹디자이너 & 웹퍼블리셔 김보연입니다. <br>전공도 아니였던 제가 새로운 것을 도전해보고 싶어 찾아보게 된 프론트앤드란 직업에 흥미를 갖게되어 메가스터디컴퓨터아카데미에서 약 1년간 공부를 하여 웹사이트를 직접 만들어보는 재미를 느끼게 되었습니다. 점점 더 흥미를 느끼고 있는 저로선 좀 더 체계적인 코딩을 배우기 위해 자기개발에 힘쓰겠습니다.</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="note">
-                                <p>MBTI TYPE</p>
-                                <p>발명가형 ENTP</p>
-                                <p>민첩하고 독창적이며 안목이 넓으며 다방면에 관심과 재능이 많다.
-                                    풍부한 상상력과 새로운 일을 시도하는 솔선력이 강하며 논리적이다. 새로운 문제나 복잡한 문제에 해결 능력이 뛰어나며 사람들의 동향에 대해 기민하고 박식하다. 관심을 갖고 있는 일에는 대단한 수행능력을 가지고 있다.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>   
-            </div>
-        </div>
-
-    </section>
-
-    <div class='wavebox'>
-        <div class='wave one'></div>
-        <div class='wave two'></div>
-        <!-- <div class='wave three'></div> -->
+      <ul class="menu">
+        <li>
+          <a href="#section1">Intro</a>
+        </li>
+        <li>
+          <a href="#section2">About me</a>
+        </li>
+        <li>
+          <a href="#section3">Work</a>
+        </li>
+        <li>
+          <a href="#section4">Contact</a>
+        </li>
+      </ul>
     </div>
 
-    <div class='wavebox2'>
-        <div class='wave one'></div>
-        <!-- <div class='wave two'></div> -->
-        <!-- <div class='wave three'></div> -->
-    </div>
-
-    
-    <!-- WORK -->
-    <section class="work" id="section3">
-        <div class="promotion">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="swiper-slide__img">
-                            <img src="./img/Mockup_starbucks3.png" alt="starbucks_site" />
-                        </div>
-                        <div class="swiper-slide__info">
-                            <div class="text-group">
-                                <h1>Starbucks 홈페이지</h1>
-                                <p>기간 : 4 ~ 5일</p>
-                                <p>Tools : </p>
-                                <div class="tools">
-                                    <div class="fab fa-html5"></div>
-                                    <div class="fab fa-css3-alt"></div>
-                                    <div class="fab fa-js"></div>
-                                </div>
-                            </div>
-                            <div class="note">
-                                <p>설명 : </p>
-                                <p>기존 스타벅스 홈페이지의 메인페이지와 로그인페이지를 개인적으로 따라 작업하였습니다.</p>
-                                <p></p>
-                                <p>swiper 플러그인을 사용해 slide를 구현하였고, Gsap과 ScrollTo 플러그인을 사용하여 애니메이션 효과를 적용시켰습니다.</p>
-                            </div>
-                            <a href="https://lucid-ritchie-3ade6c.netlify.app" target="_blank"><button class="btn">사이트 이동</button></a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-slide__img">
-                            <img src="./img/mockup1.png" alt="harrypotter" />
-                        </div>
-                        <div class="swiper-slide__info harrypotter">
-                            <div class="text-group">
-                                <h1>해리포터 포스터디자인</h1>
-                                <p>기간 : 2주</p>
-                                <p>Tools : </p>
-                                <div class="tools">
-                                    <img src="./img/photoshop_icon_02.png" alt="">
-                                </div>
-                            </div>
-                            <div class="note">
-                                <p>설명 : </p>
-                                <p>해리포터 영화 포스터 리디자인입니다.</p>
-                                <p>해리포터의 주인공들과 볼드모트의 호크룩스를 중심을 잡고, 호그와트 마법학교의 고유색을 이용해 색감을 주었습니다.</p>
-                                <p>신비로운 느낌을 주고싶어 안개 느낌의 브러쉬를 사용하였고, 명도를 조절함으로써 좀 더 밝고 어두운 효과를 주었습니다.</p>
-                            </div>
-                            <a href="https://angry-swirles-dfab29.netlify.app" target="_blank"><button class="btn">사이트 이동</button></a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-slide__img">
-                            <img src="./img/Mockup_logo3.png" alt="Mockup_logo2" />
-                        </div>
-                        <div class="swiper-slide__info">
-                            <div class="text-group">
-                                <h1>COFFEE 로고 디자인</h1>
-                                <p>기간 : 1달</p>
-                                <p>Tools : </p>
-                                <div class="tools">
-                                    <img src="./img/illustrator_icon_02.png" alt="">
-                                </div>
-                            </div>
-                            <div class="note">
-                                <p>설명 : </p>
-                                <p>카페 에스프레소 로고디자인입니다.</p>
-                                <p>커피 컵을 베이스로 기본 에스프레소와 섞는 종류에 따라 색이 변하는 것을 표현 해 보고 싶었습니다.</p>
-                                <p>커피의 다양한 종류가 있다는 느낌으로, 위에는 휘핑크림을 얹어, 그 위에 토핑을 한 디자인을 했습니다.</p>
-                            </div>
-                            <a href="https://agitated-curran-059329.netlify.app" target="_blank"><button class="btn">사이트 이동</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-pagination"></div>
-
-            <div class="swiper-prev">
-                <div class="material-icons">arrow_back_ios</div>
-            </div>
-            <div class="swiper-next">
-                <div class="material-icons">arrow_forward_ios</div>
-            </div>
-
-        </div>
-    </section>
+  </header>
 
 
-    <!-- CONTACT -->
-    <div class="contact" id="section4">
+  <!-- INTRO -->
+  <section class="intro scroll-spy" id="section1">
 
-        <div class="container-left">
-            <div class="card">
-                <div class="front">
-                    <div class="logo logo-front">
-                        <img src="./img/favicon.png" alt="">
-                    </div>
-                    <div class="card-text">
-                        <div class="card-contact">
-                            <p>Phone number : 010-9418-6873</p>
-                            <p>E-mail : eyhc1212<span>@naver.com</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="back">
-                    <div class="card-back">
-                        <div class="back-card-contact">
-                            <img src="./img/favicon.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <h1>Hello !</h1>
+
+    <div class="inner">
+      <div class="text">
+        <h1>Welcome to <strong class="my">My</strong>
+          <strong class="portfolio">Portfolio</strong>
+        </h1>
+        <div class="text--circle">
+          <div class="circle circle1"></div>
+          <div class="circle circle2"></div>
+          <div class="circle circle3"></div>
+          <div class="circle circle4"></div>
+          <div class="circle circle5"></div>
         </div>
 
-        <!-- <div class="circle one"></div> -->
-        <div class="circle two"></div>
-        
+      </div>
+      <div class="text-2">
+        <p class="hello">Hello <span>I'm</span></p>
+      </div>
 
-        <!-- FOOTER -->
-        <footer>
-            <a href="https://github.com/K-Boyeon" target="_blank"><div class="fab fa-github"></div></a>
-            <a href="https://codepen.io/your-work/" target="_blank"><div class="fab fa-codepen"></div></a>
-            <p>Thank you for coming.</p>
-            <p>
-                BY.K, &copy;<span class="this-year"></span> All Rights Reserved.
-            </p>
-        </footer>
+      <div class="text-2 swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide font">
+            <p>Kim BoYeon</p>
+          </div>
+          <div class="swiper-slide font">
+            <p>Web Desinger</p>
+          </div>
+          <div class="swiper-slide font">
+            <p>Web Publisher</p>
+          </div>
+        </div>
+      </div>
 
+      <div class="main-menu fade-in">
+        <ul class="menu">
+          <li>
+            <a href="#section1" class="liList">Intro</a>
+          </li>
+          <li>
+            <a href="#section2" class="liList">About me</a>
+          </li>
+          <li>
+            <a href="#section3" class="liList">Work</a>
+          </li>
+          <li>
+            <a href="#section4" class="liList">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <div class="to-top">
-        <div class="material-icons">arrow_upward</div>
+    <div class="mouse-scroll">
+      <div class="mouse">
+        <div class="mouse-wheel"></div>
+      </div>
     </div>
-    
+
+    <div class="bg-top"></div>
+    <div class="bg-bottom"></div>
+  </section>
+
+
+  <!-- PROFILE -->
+
+  <section class="profile scroll-spy" id="section2">
+
+    <div class="big-box">
+      <div class="box">
+        <ul class="first-list">
+
+          <div class="title back-to-position to-right delay-0">
+            <p>EDUCATION</p>
+          </div>
+
+          <li class="skill1">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="info back-to-position to-left delay-0">
+              <p>2015.02 매향여자정보고등학교 (경영정보학과) 졸업<br></p>
+              <p>2015-2020 회계 및 사무보조 경력<br></p>
+              <p>2021.01 ~ 2021.11 메가스터디컴퓨터아카데미 수원캠퍼스 <br>(웹디자인 & 웹퍼블리셔)<br></p>
+            </div>
+          </li>
+
+          <div class="title back-to-position to-right delay-1">
+            <p>LICENSE</p>
+          </div>
+
+          <li class="skill2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="info back-to-position to-left delay-1">
+              <p>21.03 GTQ그래픽기술자격 1급 취득<br></p>
+            </div>
+          </li>
+
+          <div class="title back-to-position to-right delay-2">
+            <p>SKILLS</p>
+          </div>
+
+          <li class="skill3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="info back-to-position to-left delay-2">
+              <span>HTML</span>
+              <div class="progress--one">
+                <progress value="80" max="100"></progress>
+                <span>80%</span>
+              </div>
+              <span>CSS</span>
+              <div class="progress--one">
+                <progress value="75" max="100"></progress>
+                <span>75%</span>
+              </div>
+              <span>javascript/jQuery</span>
+              <div class="progress--one">
+                <progress value="60" max="100"></progress>
+                <span>60%</span>
+              </div>
+              <span>photoshop</span>
+              <div class="progress--one">
+                <progress value="75" max="100"></progress>
+                <span>75%</span>
+              </div>
+              <span>illustrator</span>
+              <div class="progress--one">
+                <progress value="65" max="100"></progress>
+                <span>65%</span>
+              </div>
+              <span>excel</span>
+              <div class="progress--one">
+                <progress value="70" max="100"></progress>
+                <span>70%</span>
+              </div>
+              <span>Word</span>
+              <div class="progress--one">
+                <progress value="60" max="100"></progress>
+                <span>65%</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="box2">
+
+        <div class='wavebox-2'>
+          <div class='wave two'></div>
+        </div>
+
+        <div class='wavebox-3'>
+          <div class='wave four'>
+            <img src="./img/DSC_6579 복사2.png" alt="이력서사진">
+          </div>
+        </div>
+
+        <div class="profile-info back-to-position to-right delay-2">
+          <div class="profile-name profile-info--text">
+            <p>김보연 / KIM BOYEON</p>
+            <p>Web desinger & Publisher</p>
+          </div>
+          <div class="profile-age profile-info--text">
+            <p>AGE</p>
+            <p>만 25 ( 96.12.12 )</p>
+          </div>
+          <div class="profile-phone profile-info--text">
+            <p>PHONE NUMBER</p>
+            <p>010-9418-6873</p>
+          </div>
+          <div class="profile-email profile-info--text">
+            <p>E-MAIL</p>
+            <p>eyhc1212@naver.com</p>
+          </div>
+        </div>
+
+        <div class="togglebtn">
+          <div class="clickbtn">
+            <h1>Who am I</h1>
+          </div>
+          <div class="material-icons">
+            <img src="./img/click-icon-vector-25322813-2.png" alt="arrowicon">
+          </div>
+        </div>
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="note">
+                <p>저는 꾸준히 노력하는 <br>신입 웹디자이너 & 웹퍼블리셔 김보연입니다. <br>전공도 아니였던 제가 새로운 것을 도전해보고 싶어 찾아보게 된 프론트앤드란 직업에 흥미를 갖게되어
+                  메가스터디컴퓨터아카데미에서 약 1년간 공부를 하여 웹사이트를 직접 만들어보는 재미를 느끼게 되었습니다. 점점 더 흥미를 느끼고 있는 저로선 좀 더 체계적인 코딩을 배우기 위해
+                  자기개발에 힘쓰겠습니다.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="note">
+                <p>MBTI TYPE</p>
+                <p>발명가형 ENTP</p>
+                <p>민첩하고 독창적이며 안목이 넓으며 다방면에 관심과 재능이 많다.
+                  풍부한 상상력과 새로운 일을 시도하는 솔선력이 강하며 논리적이다. 새로운 문제나 복잡한 문제에 해결 능력이 뛰어나며 사람들의 동향에 대해 기민하고 박식하다. 관심을 갖고 있는 일에는
+                  대단한 수행능력을 가지고 있다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <div class='wavebox'>
+    <div class='wave one'></div>
+    <div class='wave two'></div>
+    <!-- <div class='wave three'></div> -->
+  </div>
+
+  <div class='wavebox2'>
+    <div class='wave one'></div>
+    <!-- <div class='wave two'></div> -->
+    <!-- <div class='wave three'></div> -->
+  </div>
+
+
+  <!-- WORK -->
+  <section class="work" id="section3">
+    <div class="promotion">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-slide__img">
+              <img src="./img/Mockup_starbucks3.png" alt="starbucks_site" />
+            </div>
+            <div class="swiper-slide__info">
+              <div class="text-group">
+                <h1>Starbucks 홈페이지</h1>
+                <p>기간 : 4 ~ 5일</p>
+                <p>Tools : </p>
+                <div class="tools">
+                  <div class="fab fa-html5"></div>
+                  <div class="fab fa-css3-alt"></div>
+                  <div class="fab fa-js"></div>
+                </div>
+              </div>
+              <div class="note">
+                <p>설명 : </p>
+                <p>기존 스타벅스 홈페이지의 메인페이지와 로그인페이지를 개인적으로 따라 작업하였습니다.</p>
+                <p></p>
+                <p>swiper 플러그인을 사용해 slide를 구현하였고, Gsap과 ScrollTo 플러그인을 사용하여 애니메이션 효과를 적용시켰습니다.</p>
+              </div>
+              <a href="https://lucid-ritchie-3ade6c.netlify.app" target="_blank"><button class="btn">사이트 이동</button></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__img">
+              <img src="./img/mockup1.png" alt="harrypotter" />
+            </div>
+            <div class="swiper-slide__info harrypotter">
+              <div class="text-group">
+                <h1>해리포터 포스터디자인</h1>
+                <p>기간 : 2주</p>
+                <p>Tools : </p>
+                <div class="tools">
+                  <img src="./img/photoshop_icon_02.png" alt="psicon">
+                </div>
+              </div>
+              <div class="note">
+                <p>설명 : </p>
+                <p>해리포터 영화 포스터 리디자인입니다.</p>
+                <p>해리포터의 주인공들과 볼드모트의 호크룩스를 중심을 잡고, 호그와트 마법학교의 고유색을 이용해 색감을 주었습니다.</p>
+                <p>신비로운 느낌을 주고싶어 안개 느낌의 브러쉬를 사용하였고, 명도를 조절함으로써 좀 더 밝고 어두운 효과를 주었습니다.</p>
+              </div>
+              <a href="https://angry-swirles-dfab29.netlify.app" target="_blank"><button class="btn">사이트 이동</button></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__img">
+              <img src="./img/Mockup_logo3.png" alt="Mockup_logo2" />
+            </div>
+            <div class="swiper-slide__info">
+              <div class="text-group">
+                <h1>COFFEE 로고 디자인</h1>
+                <p>기간 : 1달</p>
+                <p>Tools : </p>
+                <div class="tools">
+                  <img src="./img/illustrator_icon_02.png" alt="aiicon">
+                </div>
+              </div>
+              <div class="note">
+                <p>설명 : </p>
+                <p>카페 에스프레소 로고디자인입니다.</p>
+                <p>커피 컵을 베이스로 기본 에스프레소와 섞는 종류에 따라 색이 변하는 것을 표현 해 보고 싶었습니다.</p>
+                <p>커피의 다양한 종류가 있다는 느낌으로, 위에는 휘핑크림을 얹어, 그 위에 토핑을 한 디자인을 했습니다.</p>
+              </div>
+              <a href="https://agitated-curran-059329.netlify.app" target="_blank"><button class="btn">사이트
+                  이동</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-prev">
+        <div class="material-icons">arrow_back_ios</div>
+      </div>
+      <div class="swiper-next">
+        <div class="material-icons">arrow_forward_ios</div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <div class="contact" id="section4">
+
+    <div class="container-left">
+      <div class="card">
+        <div class="front">
+          <div class="logo logo-front">
+            <img src="./img/favicon.png" alt="favicon1">
+          </div>
+          <div class="card-text">
+            <div class="card-contact">
+              <p>Phone number : 010-9418-6873</p>
+              <p>E-mail : eyhc1212<span>@naver.com</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="card-back">
+            <div class="back-card-contact">
+              <img src="./img/favicon.png" alt="favicon2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="circle one"></div> -->
+    <div class="circle two"></div>
+
+
+    <!-- FOOTER -->
+    <footer>
+      <a href="https://github.com/K-Boyeon" target="_blank">
+        <div class="fab fa-github"></div>
+      </a>
+      <a href="https://codepen.io/your-work/" target="_blank">
+        <div class="fab fa-codepen"></div>
+      </a>
+      <p>Thank you for coming.</p>
+      <p>
+        &copy;BY.K, <span class="this-year"></span> All Rights Reserved.
+      </p>
+    </footer>
+
+  </div>
+
+  <div class="to-top">
+    <div class="material-icons">arrow_upward</div>
+  </div>
+
 </body>
+
 </html>

@@ -24,18 +24,9 @@
 }
 ```
 ```javascript
-tl.fromTo(bgTop, 1.5, {
-        y: "-100%"
-    },{
-        y: "0%",
-        ease: Power2.easeInOut
-    }, "-=1.5");
-tl.fromTo(bgBottom, 1.7, {
-        y: "100%"
-    },{
-        y: "0%",
-        ease: Power2.easeInOut
-    }, "-=1.5");
+  tl.fromTo(bgTop, 1.5, {y: "-100%"}, {y: "0%",ease: Power2.easeInOut}, "-=1.5");
+  tl.fromTo(bgBottom, 1.7, {y: "100%"}, {y: "0%",ease: Power2.easeInOut}, "-=1.5");
+
 ```
 intro의 line을 gradient style을 주었습니다.
 ```CSS
