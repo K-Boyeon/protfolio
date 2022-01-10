@@ -701,11 +701,11 @@ header .fixed-menu>.menu li a.on-2 {
 
 .wave.four img {
   position: absolute;
-  top: 56%;
-  left: 54%;
+  top: 60%;
+  left: 58%;
   transform: translate(-50%, -50%) rotateZ(-35deg);
-  width: 245px;
-  height: 325px;
+  width: 240px;
+  height: 330px;
 }
 
 .profile {
